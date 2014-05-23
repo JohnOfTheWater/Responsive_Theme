@@ -25,6 +25,8 @@ group :development do
   gem 'spring',        group: :development
 end
 
+gem 'rails_12factor'
+
 group :test, :development do
   gem 'capybara'
   gem 'database_cleaner'
