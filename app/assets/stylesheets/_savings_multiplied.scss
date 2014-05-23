@@ -544,4 +544,120 @@ $small-only: "#{$screen} and (max-width: 40em)" !default;
     border: transparent;
   }
 
+
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+  body{
+  }
+
+  #main_navigation {
+    top: -1185px;
+  }
+
+  #text_1 {
+    color: #8cb82c;
+    font-family: 'Lobster', cursive;
+    width: 350px;
+    text-align: -webkit-left;
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    left: 5px;
+    top: -20px;
+    text-align: center;
+  }
+
+  #text_2 {
+    color: #4caeb6;
+    font-family: 'Lobster', cursive;
+    width: 280px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: -125px;
+    left: 75px;
+    font-size: 25px;
+  }
+
+  #blue_owl {
+    top: -40px;
+  }
+
+  #shop_button {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/9552395-1lpa1.png") -318px 0px;
+    background-size: cover;
+    position: relative;
+    top: -130px;
+    left: -6px;
+    height: 85px;
+    width: 370px;
+  }
+
+  #line_1 {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/1462395-vlsuf.png");
+    background-size: cover;
+    position: relative;
+    top: 360px;
+    height: 29px;
+    width: 360px;
+    z-index: 6;
+  }
+
+  #facebook {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/5052395-f6dbt.png");
+    background-size: cover;
+    position: relative;
+    top: 800px;
+    left: 30px;
+    height: 90px;
+    width: 140px;
+  }
+
+  #twitter {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/9412395-3jsd5.png");
+    background-size: cover;
+    position: relative;
+    top: 700px;
+    left: 195px;
+    height: 100px;
+    width: 170px;
+    z-index: 5;
+  }
+
+  #m_board {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/2462395-1d0hb.png");
+    background-size: cover;
+    position: relative;
+    top: 720px;
+    left: 20px;
+    height: 90px;
+    width: 180px;
+  }
+
+  #special {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/2182395-1616a.png");
+    background-size: cover;
+    position: relative;
+    top: 625px;
+    left: 205px;
+    height: 100px;
+    width: 160px;
+  }
+
+  #piedone {
+    position: absolute;
+    top: 1360px;
+    left: 22px;
+    margin: 0px 0px 0px 0px;
+    width: 360px;
+  }
+
+  #piedone a {
+    padding: 0px 25px 0px 25px;
+    color: white;
+    border-right: 1px solid white;
+  }
+
+
 }
