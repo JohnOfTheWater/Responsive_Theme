@@ -1,0 +1,59 @@
+!!!
+/ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+/[if lt IE 7 ] <html class="ie6" lang="en">
+/[if IE 7 ] <html class="ie7" lang="en">
+/[if IE 8 ] <html class="ie8" lang="en">
+/ [if (gte IE 9)|!(IE)]><!
+%html{lang: "en"}
+  %head
+    %title= content_for(:html_title) || SavingsMultpliedRedux
+    /%link{href: "/assets/responsive.css", media: 'screen and (max-width: 900px)', rel: "stylesheet"}/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    /= stylesheet_link_tag    'responsive', media: 'screen and (max-width: 900px)', 'data-turbolinks-track' => true
+    = javascript_include_tag "vendor/custom.modernizr"
+    %meta{ charset: "utf-8"}/
+    / Uncomment to make IE8 render like IE7
+    / <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    / Set the viewport width to device width for mobile
+    %meta{ content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    = csrf_meta_tags
+  %body
+    #main_wrap
+      %ul#devise_navigation
+        - if user_signed_in?
+          %li.vr
+            You are signed in as
+            = link_to(current_user.full_name, main_app.user_path(current_user))
+          %li= link_to('sign out', destroy_user_session_path, method: :delete)
+        - else
+          %li.vr= link_to("sign in", new_user_session_path)
+          %li= link_to("sign up", new_user_registration_path)
+      %header
+        %h1#logo= image_tag "savings-multiplied-logo.png"
+        %ul#page_navigation
+          %li#about= link_to "About", "/pages/about"
+          %li#contact= link_to "Contact", "/pages/contact"
+          %li#blog= link_to "Blog", "/pages/blog"
+          %li#press= link_to "Press", "/pages/press"
+        %h2#text_header where parents of multiples save, sell &amp; share
+    %ul#main_navigation
+      %li#buy= link_to "Buy", auctions_path
+      %li#sell= link_to "Sell", new_auction_path
+      %li#how= link_to "How it Works", "/pages/howitworks"
+      %li#links= link_to "Links", "/pages/links"
+      %li#community= link_to "Community", "/pages/community"
+      %li#search= link_to " ", "https://www.google.com"
+      %li= render partial: "auction_searches/search_term_form"
+      #content
+        .notice= notice
+        .alert= alert
+        = yield
+    %footer
+      %ul#piedone
+        %li= link_to "Link here", "#"
+        %li#terzo= link_to "Link here", "#"
+        %li= link_to "Link here", "#"
+        %li#terzo= link_to "Link here", "#"
+        %li= link_to "Link here", "#"
+        %li#last= link_to "Link here", "#"
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true

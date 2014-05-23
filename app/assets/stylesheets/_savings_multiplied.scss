@@ -1,0 +1,534 @@
+@import url('http://fonts.googleapis.com/css?family=Lobster+Two:400italic,400,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+header, footer, body {
+  ul {
+    li {
+      display: inline;
+    }
+  }
+}
+
+body {
+//background-color: #75cbd2;
+background: linear-gradient(#d5f1f0 260px, #75cbd2 0px);
+}
+
+#devise_navigation{
+  float: right;
+  position: relative;
+  top: -30px;
+  left: -40px;
+}
+
+#logo {
+position: relative;
+top: -30px;
+left: 0px;
+}
+
+#page_navigation{
+position: relative;
+top: -130px;
+left: 460px;
+}
+
+#about{
+  border: 1px solid #75cbd1;
+  border-radius: 15px;
+  padding: 2px 35px 2px 35px;
+  background-color: #75cbd1;
+}
+
+#page_navigation a{
+color: white;
+}
+
+#contact{
+  border: 1px solid #8cb82c;
+  border-radius: 15px;
+  padding: 2px 35px 2px 35px;
+  background-color: #8cb82c;
+}
+
+#blog{
+  border: 1px solid #702c8e;
+  border-radius: 15px;
+  padding: 2px 35px 2px 35px;
+  background-color: #702c8e;
+}
+
+#press{
+  border: 1px solid #ec008c;
+  border-radius: 15px;
+  padding: 2px 35px 2px 35px;
+  background-color: #ec008c;
+}
+
+.vr {
+  border-right: 1px solid #2ba6cb;
+  margin: 0px 5px 0px 0px;
+  padding: 0px 10px 0px 0px;
+}
+
+#text_header{
+  font-family: 'Lobster', cursive;
+//font-family: 'Lobster Two', bold;
+color: #75cbd1;
+position: relative;
+top: -150px;
+left: 430px;
+font-size: 29px;
+}
+
+#main_navigation{
+  position: relative;
+  top: -915px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #f5cbd3;
+  background-color: #f5cbd3;
+  text-align: center;
+}
+
+#main_navigation a{
+  font-family: 'Lobster', cursive;
+  //font-family: 'Lobster Two', bold;
+  font-size: 30px;
+  color: #751d4f;
+  padding: 0px 70px 0px 0px;
+}
+
+#search{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/3952395-1uhgz.png');
+background-size: cover;
+width: 140px;
+height: 40px;
+padding: 11px 0px 0px 50px;
+position: relative;
+left: -15px;
+}
+
+#new_auction_search {
+width: 150px;
+position: relative;
+top: -40px;
+left: 1180px;
+}
+
+#new_auction_search label{
+display: none;
+}
+
+#new_auction_search input {
+display: none
+}
+
+#auction_search_search_term{
+border-radius: 20px;
+display: inline;
+}
+
+.string optional{
+display: none;
+}
+
+#text_1 {
+  color: #8cb82c;
+  font-family: 'Lobster', cursive;
+  width: 550px;
+  text-align: -webkit-left;
+  margin-top: 20px;
+  font-size: 34px;
+  position: relative;
+  left: 10px;
+}
+
+#text_2 {
+  color: #4caeb6;
+  font-family: 'Lobster', cursive;
+  width: 550px;
+  text-align: -webkit-left;
+  margin-top: 20px;
+  position: relative;
+  top: -65px;
+  left: 65px;
+  font-size: 25px;
+}
+
+#shop_button{
+  background: url('http://evernode.delacqua.us/img/johngmailcom/john/9552395-1lpa1.png');
+  background-size: cover;
+  position: relative;
+  top: -70px;
+  left: -5px;
+  height: 55px;
+  width: 560px;
+}
+
+#shop_button a{
+  position: relative;
+  left: 149px;
+  //border: 1px solid;
+  top: 14px;
+  padding: 0px 150px 0px 0px;
+}
+
+#child_images {
+position: relative;
+top: 30px;
+left: 30px;
+}
+
+#child_images img{
+  padding: 0px 0px 15px 0px;
+  height: 190px;
+  width: 400px;
+}
+
+#blue_owl {
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/6162395-1jx06.png');
+background-size: cover;
+width: 75px;
+height: 84px;
+position: relative;
+left: -15px;
+}
+
+#tree{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/6142395-1itg0.png');
+background-size: cover;
+position: relative;
+top: 50px;
+left: 420px;
+width: 140px;
+height: 140px;
+}
+
+#line_1{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/1462395-vlsuf.png');
+background-size: cover;
+position: relative;
+top: 120px;
+height: 29px;
+width: 400px;
+}
+
+#line_2{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/1462395-vlsuf.png');
+background-size: cover;
+position: relative;
+top: 92px;
+left: 410px;
+height: 28px;
+width: 400px;
+}
+
+#line_3{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/1462395-vlsuf.png');
+background-size: cover;
+position: relative;
+top: 62px;
+left: 740px;
+height: 43px;
+width: 240px;
+}
+
+#facebook{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/5052395-f6dbt.png');
+background-size: cover;
+position: relative;
+top: 670px;
+left: 20px;
+height: 140px;
+width: 220px;
+}
+
+#facebook a{
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  padding: 60px 0px 0px 210px;
+}
+
+#twitter{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/9412395-3jsd5.png');
+background-size: cover;
+position: relative;
+top: 530px;
+left: 255px;
+height: 140px;
+width: 243px;
+z-index: 5;
+}
+
+#m_board{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/2462395-1d0hb.png');
+background-size: cover;
+position: relative;
+top: 390px;
+left: 506px;
+height: 140px;
+width: 290px;
+}
+
+#special{
+background: url('http://evernode.delacqua.us/img/johngmailcom/john/2182395-1616a.png');
+background-size: cover;
+position: relative;
+top: 270px;
+left: 806px;
+height: 116px;
+width: 181px;
+}
+
+#piedone{
+  float: left;
+  position: relative;
+  top: -600px;
+  left: -390px;
+  margin: 0px -400px 0px 0px;
+}
+
+#piedone a{
+  padding: 0px 30px 0px 30px;
+  color: white;
+  border-right: 1px solid white;
+}
+
+#last a{
+border: transparent;
+}
+
+#main_wrap{
+  margin: auto;
+  margin-top: 100px;
+  width: 1000px;
+  height: 1050px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+#content {
+  @include grid-row();
+
+  $left-column-size: 6;
+  $right-column-size: 12 - $left-column-size;
+  .left-column {
+    @include grid-column($left-column-size);
+  }
+  .right-column {
+    @include grid-column($right-column-size);
+  }
+}
+
+$small-range: (0em, 30em); /* 0, 640px */
+$small-only: "#{$screen} and (max-width: 40em)" !default;
+
+@media #{$small-only} {
+  #content {
+    .left-column, .right-column {
+      @include grid-column(12);
+    }
+  }
+
+  body {
+    background: linear-gradient(#d5f1f0 350px, #75cbd2 0px);
+  }
+
+  #main_wrap {
+    margin: auto;
+    margin-top: 100px;
+    width: 95%;
+    height: 1460px;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  #text_header{
+    display: none;
+  }
+
+  #logo {
+    position: relative;
+    top: -60px;
+    left: -5px;
+  }
+
+  #page_navigation {
+    position: relative;
+    top: -65px;
+    left: 8px;
+    width: 95%;
+    text-align: center;
+  }
+
+  #page_navigation li{
+    padding: 2px 10px 2px 10px;
+  }
+
+  #blog {
+    border: 1px solid #702c8e;
+    border-radius: 15px;
+    padding: 2px 35px 2px 35px;
+    background-color: #702c8e;
+    margin: 0px 0px 0px 2px;
+  }
+
+  #press {
+    border: 1px solid #ec008c;
+    border-radius: 15px;
+    padding: 2px 35px 2px 35px;
+    background-color: #ec008c;
+    margin: 0px 0px 0px 1px;
+  }
+
+  #main_navigation{
+    position: relative;
+    top: -1305px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #f5cbd3;
+    background-color: #f5cbd3;
+    text-align: center;
+  }
+
+  #main_navigation a {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #751d4f;
+    padding: 0px 50px 0px 0px;
+  }
+
+  #search{
+    padding: 11px 0px 0px 65px;
+  }
+
+  #text_1 {
+    color: #8cb82c;
+    font-family: 'Lobster', cursive;
+    width: 310px;
+    text-align: -webkit-left;
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+    text-align: center;
+  }
+
+  #blue_owl {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/6162395-1jx06.png");
+    background-size: cover;
+    width: 73px;
+    height: 84px;
+    position: relative;
+    left: -6px;
+    top: -20px;
+  }
+
+  #text_2 {
+    color: #4caeb6;
+    font-family: 'Lobster', cursive;
+    width: 270px;
+    text-align: -webkit-left;
+    margin-top: 20px;
+    position: relative;
+    top: -125px;
+    left: 75px;
+    font-size: 25px;
+  }
+
+  #shop_button {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/9552395-1lpa1.png") -350px 0px;
+    background-size: cover;
+    position: relative;
+    top: -130px;
+    left: -6px;
+    height: 85px;
+    width: 300px;
+  }
+
+  #shop_button a {
+    position: relative;
+    left: -1px;
+    top: 20px;
+  }
+
+  #tree{
+    display: none;
+  }
+
+  #child_images {
+    position: relative;
+    top: -150px;
+    left: 0px;
+  }
+
+  #line_1 {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/1462395-vlsuf.png");
+    background-size: cover;
+    position: relative;
+    top: 440px;
+    height: 29px;
+    width: 290px;
+    z-index: 6;
+  }
+
+  #line_2, #line_3 {
+    display: none;
+  }
+
+  #facebook {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/5052395-f6dbt.png");
+    background-size: cover;
+    position: relative;
+    top: 910px;
+    left: 20px;
+    height: 70px;
+    width: 120px;
+  }
+
+  #twitter {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/9412395-3jsd5.png");
+    background-size: cover;
+    position: relative;
+    top: 830px;
+    left: 145px;
+    height: 90px;
+    width: 160px;
+    z-index: 5;
+  }
+
+  #m_board {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/2462395-1d0hb.png");
+    background-size: cover;
+    position: relative;
+    top: 860px;
+    left: 20px;
+    height: 70px;
+    width: 150px;
+  }
+
+  #special {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/2182395-1616a.png");
+    background-size: cover;
+    position: relative;
+    top: 785px;
+    left: 175px;
+    height: 80px;
+    width: 130px;
+  }
+
+  #piedone {
+    position: absolute;
+    top: 1460px;
+    left: 30px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #terzo a {
+    border: transparent;
+  }
+
+}
