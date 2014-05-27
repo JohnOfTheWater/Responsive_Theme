@@ -549,6 +549,7 @@ $small-only: "#{$screen} and (max-width: 40em)" !default;
 
 @media (min-width: 350px) and (max-width: 429px) {
   body{
+    //background: red;
   }
 
   #main_navigation {
@@ -713,10 +714,18 @@ $small-only: "#{$screen} and (max-width: 40em)" !default;
 
 }
 
-@media (min-width: 430px) and (max-width: 640px) {
+@media (min-width: 430px) and (max-width: 553px) {
 
   body{
     //background: red;
+  }
+
+  #page_navigation {
+    position: relative;
+    top: -195px;
+    left: 418px;
+    width: 100px;
+    text-align: center;
   }
 
   #main_navigation {
@@ -736,5 +745,75 @@ $small-only: "#{$screen} and (max-width: 40em)" !default;
     left: 144px;
   }
 
+
+}
+
+@media (min-width: 554px) and (max-width: 640px) {
+
+  #main_navigation {
+    position: relative;
+    top: -1205px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f5cbd3;
+    background-color: #f5cbd3;
+    text-align: center;
+  }
+
+  #text_1 {
+    color: #8cb82c;
+    font-family: 'Lobster', cursive;
+    width: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+    text-align: center;
+  }
+
+  #text_2 {
+    color: #4caeb6;
+    font-family: 'Lobster', cursive;
+    width: auto;
+    text-align: -webkit-left;
+    margin-top: 20px;
+    position: relative;
+    top: -125px;
+    left: 95px;
+    font-size: 25px;
+  }
+
+  #blue_owl {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/6162395-1jx06.png");
+    background-size: cover;
+    width: 73px;
+    height: 84px;
+    position: relative;
+    left: 4px;
+    top: -20px;
+  }
+
+  #shop_button {
+    background: url("http://evernode.delacqua.us/img/johngmailcom/john/9552395-1lpa1.png") -350px 0px;
+    background-size: cover;
+    position: relative;
+    top: -120px;
+    left: 114px;
+    height: 85px;
+    width: 300px;
+  }
+
+  #page_navigation {
+    position: relative;
+    top: -155px;
+    left: 418px;
+    width: 100px;
+    text-align: center;
+  }
+
+  #logo {
+    top: -20px;
+  }
 
 }

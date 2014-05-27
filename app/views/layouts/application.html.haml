@@ -31,17 +31,17 @@
       %header
         %h1#logo= image_tag "savings-multiplied-logo.png"
         %ul#page_navigation
-          %li#about= link_to "About", "/pages/about"
-          %li#contact= link_to "Contact", "/pages/contact"
-          %li#blog= link_to "Blog", "/pages/blog"
-          %li#press= link_to "Press", "/pages/press"
+          %li#about= link_to "About", "#"
+          %li#contact= link_to "Contact", "#"
+          %li#blog= link_to "Blog", "#"
+          %li#press= link_to "Press", "#"
         %h2#text_header where parents of multiples save, sell &amp; share
     %ul#main_navigation
       %li#buy= link_to "Buy", auctions_path
       %li#sell= link_to "Sell", new_auction_path
-      %li#how= link_to "How it Works", "/pages/howitworks"
-      %li#links= link_to "Links", "/pages/links"
-      %li#community= link_to "Community", "/pages/community"
+      %li#how= link_to "How it Works", "#"
+      %li#links= link_to "Links", "#"
+      %li#community= link_to "Community", "#"
       %li#search= link_to " ", "https://www.google.com"
       %li= render partial: "auction_searches/search_term_form"
       #content
